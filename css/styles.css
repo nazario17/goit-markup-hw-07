@@ -186,9 +186,15 @@ span {
     width: 100%;
     height: 4px;
     border-radius: 4px;
-    bottom: -16px;
+    bottom: -36px;
 
     display: block;
+}
+
+@media screen and (min-width:1200px) {
+    .pages-link.active::after {
+        bottom: -24px;
+    }
 }
 
 /* -----AUTORIZATION-LINKS----- */
